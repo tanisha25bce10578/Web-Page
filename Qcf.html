@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens of Change Foundation</title>
+    <style>
+
+        /* 1. SETUP THE PAGE BACKGROUND */
+        body {
+            background-color: LavenderBlush;
+            font-family: Arial, sans-serif;
+            padding: 40px 20px;
+        }
+
+        /* 2. THE MAIN BOX / CARD CONTAINER */
+        .main-card {
+            background-color: White;
+            max-width: 600px;
+            margin: 0 auto; /* This centers the card on the screen */
+            border-radius: 15px;
+            overflow: hidden; /* Keeps the image corners rounded */
+            box-shadow: 0px 10px 20px LightGrey;
+        }
+
+        /* 3. THE IMAGE AT THE TOP */
+        .card-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover; /* Prevents the image from looking stretched */
+        }
+
+        /* 4. THE TEXT CONTENT AREA */
+        .card-content {
+            padding: 30px;
+            text-align: center; /* Centers all text and the button */
+        }
+
+        .ngo-name {
+            color: Purple;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .ngo-tagline {
+            color: DarkMagenta;
+            font-size: 16px;
+            font-style: italic;
+            margin-bottom: 25px;
+        }
+
+        .about-heading {
+            color: MidnightBlue;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .about-text {
+            color: SlateGrey;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* 5. THE BUTTON */
+        .join-button {
+            display: inline-block;
+            background-color: Purple;
+            color: White;
+            text-decoration: none; /* Removes the underline from the link */
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* What happens when you point your mouse at the button */
+        .join-button:hover {
+            background-color: DarkMagenta;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Main Card Container -->
+    <div class="main-card">
+        
+        <!-- One Image at the Top -->
+        <img class="card-image" src="https://www.unwomen.org/sites/default/files/2024-09/ga79_unwomenleaderssoftlaunch_sept2024_unw0167_2_blackborder_1200x800.jpg" alt="Women Leaders">
+
+        <!-- All Content Inside -->
+        <div class="card-content">
+            
+            <!-- NGO Name and Tagline -->
+            <h1 class="ngo-name">Queens of Change</h1>
+            <p class="ngo-tagline">Empowering voices. Shaping leaders. Transforming communities.</p>
+            
+            <!-- About Section -->
+            <h2 class="about-heading">About Our Mission</h2>
+            <p class="about-text">
+                The Queens of Change Foundation is dedicated to breaking systemic barriers 
+                and unlocking the boundless potential of women and young girls globally. 
+                Through comprehensive mentorship, strategic skill-building academies, and advocacy 
+                initiatives, we provide grassroots opportunities that transform passionate 
+                individuals into community leaders.
+            </p>
+
+            <!-- One Clear Button -->
+            <a href="#join" class="join-button">Join Us Today</a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
